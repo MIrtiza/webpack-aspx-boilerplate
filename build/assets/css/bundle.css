@@ -1,0 +1,16 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+body {
+  background: pink;
+  color: black;
+}
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/test.css ***!
+  \***********************************************************************/
+h2 {
+  background: black;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=bundle.css.map*/

@@ -23,11 +23,16 @@ module.exports = (env) => {
       static: {
         directory: path.resolve(__dirname, buildDIR),
       },
-      port: 3000,
-      open: true,
-      hot: true,
-      compress: true,
       historyApiFallback: true,
+      port: 3000,
+      open: false,
+      hot: true,
+      liveReload: false,
+      compress: true,
+      devMiddleware: {
+        publicPath: path.resolve(__dirname, buildDIR),
+        writeToDisk: true,
+      },
     },
     module: {
       rules: [
