@@ -1,6 +1,6 @@
 # Webpack Asp.net Boilerplate
 
 
-# start command for Asp.net Boilerplate
+# start command
 
 npm start
